@@ -33,7 +33,7 @@ p{
 }
 
 header {
-    height: 60px;
+    height: 40px;
     background-color:white;
     display: flex;
     margin-bottom: 10px;
@@ -41,7 +41,7 @@ header {
 }
 
 nav {
-    width: 970px;
+    width: 1050px;
 }
 
 ul {
@@ -58,7 +58,7 @@ ul li{
     border-right-width: 0;
     border-left-width: 0;
     border-style:solid;
-    border-color: grey
+    border-color: grey;
 }
 
 ul li a {
@@ -74,11 +74,15 @@ ul li:hover {
 
 
 a img{
-    width: 40px;
-    height: 40px;
+    margin-top: 10px;
     margin-left: 40px;
     
     
+}
+
+#Site{
+    display: flex;
+    flex-direction: column;
 }
 
 #Topo{
@@ -86,3 +90,15 @@ a img{
     background-color: rgb(209, 199, 199);
     margin-bottom: 40px;
 }
+
+.Menu {
+    display: flex;
+    justify-content: left;
+    
+}
+
+.Menu li {
+    margin-right: 300px;
+}
+
+
