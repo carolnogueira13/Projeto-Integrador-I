@@ -1,0 +1,88 @@
+@charset "utf-8";
+
+body { 
+    background-color: white ;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 60px;
+    padding-left: 60px;
+
+   }
+
+h2{
+    font-size: 15px;
+}
+
+p{
+    color: black;
+    height: 130px;
+    background-color: rgb(209, 199, 199);
+
+}
+
+#Principal { 
+    
+    margin: 0 auto;
+    background-color:white;
+}
+
+header {
+    height: 60px;
+    background-color:white;
+    display: flex;
+    margin-bottom: 10px;
+
+}
+
+nav {
+    width: 970px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0px;
+    justify-content: space-around;
+}
+
+ul li{ 
+    background-color: white;
+    border-bottom-width: 3px;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-left-width: 0;
+    border-style:solid;
+    border-color: grey
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+ul li:hover {
+    border-color: blue;
+} 
+
+
+a img{
+    width: 40px;
+    height: 40px;
+    margin-left: 40px;
+    
+    
+}
+
+#Topo{
+    height: 140px;
+    background-color: rgb(209, 199, 199);
+    margin-bottom: 40px;
+}
